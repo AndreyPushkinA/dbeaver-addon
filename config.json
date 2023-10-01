@@ -1,0 +1,13 @@
+{
+    "name": "Dbeaver Add-on",
+    "version": "1.0.0",
+    "slug": "dbeaver addon",
+    "description": "Dbeaver Home Assistant add-on",
+    "arch": ["amd64"],
+    "startup": "services",
+    "boot": "auto",
+    "init": false,
+    "ports": {
+        "8080": 8978
+    }
+}
