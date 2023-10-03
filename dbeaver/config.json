@@ -1,12 +1,22 @@
 {
-    "name": "Dbeaver",
+    "name": "Dbeaver Add-on Home Assistant",
     "version": "1.0.0",
-    "slug": "dbeaver",
+    "slug": "dbeaver addon hassio",
     "description": "Dbeaver Home Assistant add-on",
     "arch": ["amd64"],
     "startup": "services",
     "init": false,
     "ports": {
-        "8080": 8978
-    }
+        "8080/tcp": 8978
+    },
+    "options": {
+        "workspace": "/var/cloudbeaver/workspace"
+    },
+    "map": [
+        "config:rw"
+    ],
+    "image": "dbeaver/cloudbeaver-ee:latest",
+    "devices": [
+        "/var/cloudbeaver/workspace:/opt/cloudbeaver/workspace"
+    ]
 }
