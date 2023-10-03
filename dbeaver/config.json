@@ -1,7 +1,7 @@
 {
-    "name": "Dbeaver Add-on Hassio",
+    "name": "Dbeaver",
     "version": "1.0.0",
-    "slug": "dbeaver addon hassio",
+    "slug": "dbeaver",
     "description": "Dbeaver Home Assistant add-on",
     "arch": ["amd64"],
     "startup": "services",
