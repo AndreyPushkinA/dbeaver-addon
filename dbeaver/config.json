@@ -1,5 +1,5 @@
 {
-    "name": "Dbeaver Add-on Home Assistant",
+    "name": "Dbeaver Add-on Hassio",
     "version": "1.0.0",
     "slug": "dbeaver addon hassio",
     "description": "Dbeaver Home Assistant add-on",
