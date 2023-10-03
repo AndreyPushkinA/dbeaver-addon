@@ -7,6 +7,6 @@
     "startup": "services",
     "init": false,
     "ports": {
-        "8080": null
+        "8080": 8978
     }
 }
