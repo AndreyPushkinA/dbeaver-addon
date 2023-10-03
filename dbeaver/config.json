@@ -15,7 +15,6 @@
     "map": [
         "config:rw"
     ],
-    "image": "dbeaver/cloudbeaver-ee:latest",
     "devices": [
         "/var/cloudbeaver/workspace:/opt/cloudbeaver/workspace"
     ]
