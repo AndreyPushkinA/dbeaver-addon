@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: Dbeaver Add-on Hassio
+name: Dbeaver
 url: 'https://github.com/AndreyPushkinA/dbeaver-addon'
 maintainer: Awesome Maintainer <andrey.a.pushkin@gmail.com>
